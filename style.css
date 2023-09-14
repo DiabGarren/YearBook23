@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #121212;
+    font-family: sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+.cards {
+    width: 100%;
+}
+
+.cards .scroll{
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.cards h1 {
+    color: white;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    background: #1b1b1b;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.img img {
+    width: 100%;
+}
+
+.play {
+    width: 300px;
+    background: #1b1b1b;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.img {
+    width: 100%;
+}
+
+.quote h3 {
+    color: white;
+    margin: 10px 0;
+}
+
+.quote p {
+    color: #a0a0a0;
+    margin: 10px 0 0 0;
+}
+
+.progress {
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+}
+
+.elapsed path {
+    fill: white;
+}
+
+.controls {
+    display: grid;
+    grid-template-columns: 40px 50px 1fr 50px 40px;
+}
+
+.controls div {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.prev,
+.pause,
+.next {
+    justify-content: center;
+}
+
+.repeat {
+    justify-content: flex-end;
+}

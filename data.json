@@ -1,0 +1,66 @@
+[
+    {
+        "name": "Set1",
+        "group": [
+            {
+                "name": "Jason",
+                "quote": "I was head boy, so that's cool",
+                "image": "Jason.jpg",
+                "colours": [
+                    "#dedccf",
+                    "#0b1a31"
+                ]
+            },
+            {
+                "name": "Jason",
+                "quote": "I was head boy, so that's cool",
+                "image": "Jason.jpg",
+                "colours": [
+                    "#dedccf",
+                    "#0b1a31"
+                ]
+            },
+            {
+                "name": "Abby",
+                "quote": "I was head boy, so that's cool",
+                "image": "Abby.jpg",
+                "colours": [
+                    "#cdcbcb",
+                    "#2d3444"
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Set2",
+        "group": [
+            {
+                "name": "Abby",
+                "quote": "I was head boy, so that's cool",
+                "image": "Abby.jpg",
+                "colours": [
+                    "#cdcbcb",
+                    "#2d3444"
+                ]
+            },
+            {
+                "name": "Abby",
+                "quote": "I was head boy, so that's cool",
+                "image": "Abby.jpg",
+                "colours": [
+                    "#cdcbcb",
+                    "#2d3444"
+                ]
+            },
+            {
+                "name": "Jason",
+                "quote": "I was head boy, so that's cool",
+                "image": "Jason.jpg",
+                "colours": [
+                    "#dedccf",
+                    "#0b1a31"
+                ]
+            }
+        ]
+    }
+]
