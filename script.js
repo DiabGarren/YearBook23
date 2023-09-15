@@ -70,19 +70,19 @@ const loadHome = async () => {
         <h3>${students[0].group[0].name}</h3>
         <p>${students[0].group[0].quote}</p>
     </div>
-    ${progress(students[0].group[0].colours[1])}
+    ${progress(students[0].group[0].colours[0])}
     ${controls}
 
 </div>`;
-    output += `<div class="play" style="background: linear-gradient(to bottom, ${students[1].group[0].colours[0]}, ${students[1].group[0].colours[1]})">
+    output += `<div class="play" style="background: linear-gradient(to bottom, ${students[0].group[1].colours[0]}, ${students[0].group[1].colours[1]})">
     <div class="img">
-        <img src="./images/${students[1].group[0].image}" alt="${students[1].group[0].name}" />
+        <img src="./images/${students[0].group[1].image}" alt="${students[1].group[0].name}" />
     </div>
     <div class="quote">
-        <h3>${students[1].group[0].name}</h3>
-        <p>${students[1].group[0].quote}</p>
+        <h3>${students[0].group[1].name}</h3>
+        <p>${students[0].group[1].quote}</p>
     </div>
-    ${progress(students[1].group[0].colours[1])}
+    ${progress(students[0].group[1].colours[0])}
     ${controls}
 
 </div>`;
