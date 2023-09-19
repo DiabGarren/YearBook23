@@ -98,6 +98,19 @@ img {
     justify-content: center;
 }
 
+.pause:hover svg {
+    transform: scale(1.1);
+}
+
+.shuffle:hover svg path,
+.repeat:hover svg path {
+    stroke: white;
+}
+.prev:hover svg path,
+.next:hover svg path {
+    fill: white;
+}
+
 .repeat {
     justify-content: flex-end;
 }
