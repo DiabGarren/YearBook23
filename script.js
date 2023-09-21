@@ -51,16 +51,16 @@ const loadHome = async () => {
     console.log(students);
 
     let output = '';
-    // students.forEach(group => {
-    //     output += `<div class="cards"><h1>${group.name}</h1><div class="scroll">`
-    //     group.group.forEach(student => {
-    //         output += `
-    //         <div class="card">
-    //         <img src="./images/${student.image}" alt="${student.name}"/>
-    //         </div>`
-    //     });
-    //     output += `</div></div>`
-    // });
+    students.forEach(group => {
+        output += `<div class="cards"><h1>${group.name}</h1><div class="scroll">`
+        group.group.forEach(student => {
+            output += `
+            <div class="card">
+            <img src="./images/${student.image}" alt="${student.name}"/>
+            </div>`
+        });
+        output += `</div></div>`
+    });
 
     output += `<div class="play" style="background: linear-gradient(to bottom, ${students[0].group[0].colours[0]}, ${students[0].group[0].colours[1]})">
     <div class="img">
