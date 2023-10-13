@@ -17,13 +17,14 @@ export default function StudentSets(props: any) {
     const set: any[] = [];
     const students = props.students.map((student: any, index: number) => {
         const displayStudent = (
-            <div>
+            <div className="mx-[5px] my-[3px]">
                 <div
-                    className={`h-[200px] w-[200px] rounded-[10px] bg-cover bg-${
-                        student.imagePos ? student.imagePos : "center"
-                    }`}
+                    className="h-[150px] w-[150px] rounded-[5px] bg-cover"
                     style={{
                         backgroundImage: `url('/images/${student.image}')`,
+                        backgroundPosition: student.imagePos
+                            ? student.imagePos
+                            : "center",
                     }}
                 ></div>
                 <p>{student.name}</p>
@@ -38,8 +39,8 @@ export default function StudentSets(props: any) {
             set.splice(0, set.length);
             return (
                 <div
-                    className="flex flex-row"
-                    style={{ maxWidth: "800px", overflowX: "auto" }}
+                    className="flex flex-row max-w-[95%]"
+                    style={{ overflowX: "auto" }}
                 >
                     {newSet}
                 </div>
