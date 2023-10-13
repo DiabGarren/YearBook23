@@ -11,7 +11,7 @@ export async function GET(req: any) {
         const limit_str = req.nextUrl.searchParams.get("limit");
 
         const page = page_str ? parseInt(page_str, 10) : 1;
-        const limit = limit_str ? parseInt(limit_str, 10) : 42;
+        const limit = limit_str ? parseInt(limit_str, 10) : 10;
 
         const { students, results, err } = await getStudents({ page, limit });
 
