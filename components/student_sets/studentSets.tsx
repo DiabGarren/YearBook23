@@ -31,10 +31,11 @@ export default function StudentSets(props: any) {
             </div>
         );
 
-        if (index % 7 !== 6) {
+        if (index % 6 !== 5) {
             set.push(displayStudent);
             return <></>;
         } else {
+            set.push(displayStudent);
             const newSet = [...set];
             set.splice(0, set.length);
             return (
