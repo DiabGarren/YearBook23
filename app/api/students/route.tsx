@@ -24,7 +24,7 @@ export async function GET(req: any) {
             results,
             students,
         };
-        return Response.json(json_res);
+        return NextResponse.json(json_res);
     } catch (err: any) {
         return createErrorResponse(err.message, 500);
     }
