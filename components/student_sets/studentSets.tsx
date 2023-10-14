@@ -1,5 +1,14 @@
 /* eslint-disable react/jsx-key */
-import Image from "next/image";
+
+const headers = [
+    "Jump back in",
+    "Made For You",
+    "Your top mixes",
+    "Episodes for you",
+    "Best of artists",
+    "Editor's Picks",
+    "Made For Us",
+];
 
 export default function StudentSets(props: any) {
     if (props.students && props.students.length === 0) {
@@ -17,7 +26,18 @@ export default function StudentSets(props: any) {
     const set: any[] = [];
     const students = props.students.map((student: any, index: number) => {
         const displayStudent = (
-            <div className="mx-[5px] my-[3px] p-[10px] pb-[2px] rounded-[5px] bg-grey-dark">
+            <div
+                className={`${
+                    index === 0
+                        ? "ml-[10px] mr-[5px]"
+                        : index % 6 === 5
+                        ? "ml-[5px] mr-[10px]"
+                        : "mx-[5px]"
+                } my-[3px] p-[10px] pb-[2px] rounded-[10px] bg-grey-dark`}
+                style={{
+                    background: `linear-gradient(to bottom, ${student.colours[0]}, ${student.colours[1]})`,
+                }}
+            >
                 <div
                     className="h-[150px] w-[150px] rounded-[5px] bg-cover"
                     style={{
@@ -47,11 +67,16 @@ export default function StudentSets(props: any) {
             const newSet = [...set];
             set.splice(0, set.length);
             return (
-                <div
-                    className="flex flex-row max-w-[95%] mx-[auto] mb-[25px]"
-                    style={{ overflowX: "auto" }}
-                >
-                    {newSet}
+                <div>
+                    <h2 className="text-[1.3em] font-[700] px-[10px] mb-[2px]">
+                        {headers[index % 5]}
+                    </h2>
+                    <div
+                        className="flex flex-row max-w-[100%] mx-[auto] mb-[20px]"
+                        style={{ overflowX: "auto" }}
+                    >
+                        {newSet}
+                    </div>
                 </div>
             );
         }
