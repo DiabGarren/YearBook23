@@ -4,7 +4,6 @@ import { useState } from "react";
 import { dm_sans } from "@/utils/fonts";
 import HomePagePlayBar from "@/components/play_bar/homePage";
 import RecentlyPlayed from "@/components/recently_played/recentlyPlayed";
-import { Students } from "./layout";
 import PlayScreen from "@/components/play_screen/playScreen";
 
 export default function Home() {
