@@ -21,7 +21,7 @@ export default function PlayScreen(props: any) {
     });
     return (
         <div
-            className="h-[88vh]"
+            className="pb-[30px]"
             style={{
                 background: `linear-gradient(to bottom, ${playing.colours[0]}, ${playing.colours[1]}`,
             }}
@@ -101,8 +101,8 @@ export default function PlayScreen(props: any) {
                     className="grid"
                     style={{ gridTemplateColumns: "1fr 1fr 1fr" }}
                 >
-                    <p className="text-grey-light text-[.8em]">2:46</p>
-                    <p className="col-[3] text-right text-grey-light text-[.8em]">
+                    <p className="text-grey-light-1 text-[.8em]">2:46</p>
+                    <p className="col-[3] text-right text-grey-light-1 text-[.8em]">
                         3:38
                     </p>
                 </div>
