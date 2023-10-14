@@ -3,6 +3,7 @@ import StudentSets from "@/components/student_sets/studentSets";
 import { useState } from "react";
 import { dm_sans } from "@/utils/fonts";
 import HomePagePlayBar from "@/components/play_bar/homePage";
+import RecentlyPlayed from "@/components/recently_played/recentlyPlayed";
 
 export default function Home() {
     const [students, setStudents] = useState([]);
@@ -25,6 +26,7 @@ export default function Home() {
                     </h1>
                     <h2 className="text-[1.5em] font-[500]">Class of 2023</h2>
                 </div>
+                <RecentlyPlayed />
                 <StudentSets {...setProps} />
                 <HomePagePlayBar />
             </div>
