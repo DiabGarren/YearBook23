@@ -25,7 +25,7 @@ export default function Home() {
                     <h2 className="text-[1.5em] font-[500]">Class of 2023</h2>
                 </div>
                 <StudentSets {...setProps} />
-                <div className="sticky bottom-[0px] w-[100%] bg-[#282828] pb-[10px]">
+                <div className="sticky bottom-[0px] w-[100%] bg-[#282828] pb-[20px]">
                     <div
                         className="grid p-[8px] pr-[15px] items-center"
                         style={{ gridTemplateColumns: "60px 1fr 20px" }}
