@@ -20,7 +20,10 @@ const config: Config = {
             grey: {
                 DEFAULT: "#808080",
                 dark: "#1b1b1b",
-                light: "#bdbdbd"
+                light: {
+                    DEFAULT: "#bdbdbd",
+                    1: "#e8e8e8"
+                }
             }
         }
     },

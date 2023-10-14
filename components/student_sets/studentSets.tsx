@@ -21,9 +21,23 @@ export default function StudentSets(props: any) {
                         : index % 6 === 5
                         ? "ml-[5px] mr-[10px]"
                         : "mx-[5px]"
-                } my-[3px] pt-[10px] pb-[0px] rounded-[10px] bg-grey-dark`}
+                } block my-[3px] pt-[10px] pb-[0px] bg-grey-dark cursor-pointer`}
                 style={{
                     background: `linear-gradient(to bottom, ${student.colours[0]}, ${student.colours[1]})`,
+                    borderRadius: "10px 10px 12px 12px",
+                }}
+                onClick={() => {
+                    props.setStudents(
+                        props.students.map((s: any, i: number) => {
+                            if (i === index) {
+                                s.playing = true;
+                            } else {
+                                s.playing = false;
+                            }
+                            props.setPlaying(true);
+                            return s;
+                        })
+                    );
                 }}
             >
                 <div
