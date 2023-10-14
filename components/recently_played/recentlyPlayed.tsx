@@ -13,7 +13,10 @@ export default function RecentlyPlayed() {
         return (
             <div className="flex bg-grey-dark items-center p-[5px] m-[3px] rounded-[10px]">
                 <div
-                    className={`w-[50px] h-[50px] bg-[url('/images/${recent.image}')] bg-center bg-cover rounded-[5px] mr-[8px]`}
+                    className={`w-[50px] h-[50px] bg-center bg-cover rounded-[5px] mr-[8px]`}
+                    style={{
+                        backgroundImage: `url('/images/${recent.image}')`,
+                    }}
                 ></div>
                 <h2 className="text-[.9em]">{recent.name}</h2>
             </div>
