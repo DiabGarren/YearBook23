@@ -48,7 +48,7 @@ export default function StudentSets(props: any) {
             set.splice(0, set.length);
             return (
                 <div
-                    className="flex flex-row max-w-[95%] mx-[auto] mt-[25px]"
+                    className="flex flex-row max-w-[95%] mx-[auto] mb-[25px]"
                     style={{ overflowX: "auto" }}
                 >
                     {newSet}
