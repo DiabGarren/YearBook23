@@ -29,7 +29,7 @@ export default function HomePagePlayBar() {
                     height="3"
                     fill="none"
                 >
-                    <rect width="100%" height="1.5" fill="#525252" />
+                    <rect width="100%" height="1.5" fill="#1b1b1b" />
                     <rect width="80%" height="2" fill="#d9d9d9" />
                 </svg>
             </div>
