@@ -11,18 +11,6 @@ const headers = [
 ];
 
 export default function StudentSets(props: any) {
-    if (props.students && props.students.length === 0) {
-        var XMLHttpRequest = require("xhr2");
-        const xhr = new XMLHttpRequest();
-        xhr.open("GET", `${process.env.NEXT_PUBLIC_API_URL}/students`);
-        xhr.onload = () => {
-            if (xhr.status === 200) {
-                props.setStudents(JSON.parse(xhr.responseText).students);
-            }
-        };
-        xhr.send();
-    }
-
     const set: any[] = [];
     const students = props.students.map((student: any, index: number) => {
         const displayStudent = (
@@ -33,13 +21,13 @@ export default function StudentSets(props: any) {
                         : index % 6 === 5
                         ? "ml-[5px] mr-[10px]"
                         : "mx-[5px]"
-                } my-[3px] p-[10px] pb-[2px] rounded-[10px] bg-grey-dark`}
+                } my-[3px] pt-[10px] pb-[0px] rounded-[10px] bg-grey-dark`}
                 style={{
                     background: `linear-gradient(to bottom, ${student.colours[0]}, ${student.colours[1]})`,
                 }}
             >
                 <div
-                    className="h-[150px] w-[150px] rounded-[5px] bg-cover"
+                    className="h-[150px] w-[150px] mx-[10px] rounded-[5px] bg-cover"
                     style={{
                         backgroundImage: `url('/images/${student.image}')`,
                         backgroundPosition: `center ${
@@ -47,18 +35,27 @@ export default function StudentSets(props: any) {
                         }`,
                     }}
                 ></div>
-                <p className="inline-block mt-[5px]">{student.name}</p>
-                <p
-                    className="inline-block w-[150px] mt-[1px] text-[.75em] text-grey"
+                <div
+                    className="px-[10px] pb-[10px]"
                     style={{
-                        textOverflow: "ellipsis",
-                        whiteSpace: "nowrap",
-                        overflow: "hidden",
-                        maxLines: "1",
+                        background:
+                            "linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,1) 100%)",
+                        borderRadius: "0 0 10px 10px",
                     }}
                 >
-                    {student.quote}
-                </p>
+                    <p className="inline-block mt-[5px]">{student.name}</p>
+                    <p
+                        className="block w-[150px] mt-[1px] text-[.75em] text-grey"
+                        style={{
+                            textOverflow: "ellipsis",
+                            whiteSpace: "nowrap",
+                            overflow: "hidden",
+                            maxLines: "1",
+                        }}
+                    >
+                        {student.quote}
+                    </p>
+                </div>
             </div>
         );
 
