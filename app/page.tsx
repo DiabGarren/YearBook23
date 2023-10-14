@@ -263,7 +263,7 @@ export default function Home() {
             _id: "6529b2e5947f5b88ef88622b",
             name: "Arthur",
             quote: "Why have a real girlfriend when I can just 3D print one",
-            image: "unknown.jpg",
+            image: "Arthur.JGP",
             colours: ["#e4e6e7", "#242526"],
             playing: false,
         },
