@@ -1,477 +1,520 @@
-[{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef88620d"
+[
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef88620d"
+    },
+    "name": "Jason",
+    "quote": "Child of The King of Kings",
+    "image": "jason.jpg",
+    "imagePos": "top",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Jason",
-  "quote": "Child of The King of Kings",
-  "image": "jason.jpg",
-  "imagePos": "top",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef88620e"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef88620e"
+    },
+    "name": "Owen",
+    "quote": "Never back down, NEVER WHAT??",
+    "image": "owen.jpg",
+    "colours": [
+      "#ac1236",
+      "#767f12"
+    ]
   },
-  "name": "Owen",
-  "quote": "Never back down, NEVER WHAT??",
-  "image": "owen.jpg",
-  "colours": [
-    "#ac1236",
-    "#767f12"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef88620f"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef88620f"
+    },
+    "name": "Christo",
+    "quote": "Lonely at the top but crowded at the bottom",
+    "image": "christo.jpg",
+    "colours": [
+      "#cdcbcb",
+      "#2d3444"
+    ]
   },
-  "name": "Christo",
-  "quote": "Lonely at the top but crowded at the bottom",
-  "image": "christo.jpg",
-  "colours": [
-    "#cdcbcb",
-    "#2d3444"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886210"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886210"
+    },
+    "name": "Bilal",
+    "quote": "I am way cuter in person",
+    "image": "bilal.jpg",
+    "colours": [
+      "#cdcbcb",
+      "#2d3444"
+    ]
   },
-  "name": "Bilal",
-  "quote": "I am way cuter in person",
-  "image": "bilal.jpg",
-  "colours": [
-    "#cdcbcb",
-    "#2d3444"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886211"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886211"
+    },
+    "name": "Aiza",
+    "quote": "I had to put my grades up for adoption because I couldn't raise them",
+    "image": "aiza.jpg",
+    "colours": [
+      "#cdcbcb",
+      "#2d3444"
+    ]
   },
-  "name": "Aiza",
-  "quote": "I had to put my grades up for adoption because I couldn't raise them",
-  "image": "aiza.jpg",
-  "colours": [
-    "#cdcbcb",
-    "#2d3444"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886212"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886212"
+    },
+    "name": "Sophia",
+    "quote": "What even is school?",
+    "image": "unknown.jpg",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Sophia",
-  "quote": "What even is school?",
-  "image": "unknown.jpg",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886213"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886213"
+    },
+    "name": "Abby",
+    "quote": "The OG's since 05",
+    "image": "abby.jpg",
+    "colours": [
+      "#cdcbcb",
+      "#2d3444"
+    ]
   },
-  "name": "Abby",
-  "quote": "The OG's since 05",
-  "image": "abby.jpg",
-  "colours": [
-    "#cdcbcb",
-    "#2d3444"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886214"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886214"
+    },
+    "name": "Ahmad",
+    "quote": "The OG's since 05",
+    "image": "ahmad.jpg",
+    "colours": [
+      "#cdcbcb",
+      "#2d3444"
+    ]
   },
-  "name": "Ahmad",
-  "quote": "The OG's since 05",
-  "image": "ahmad.jpg",
-  "colours": [
-    "#cdcbcb",
-    "#2d3444"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886215"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886215"
+    },
+    "name": "Lesedi",
+    "quote": "I NEVER LOSE I EITHER WIN OR LEARN",
+    "image": "lesedi.jpg",
+    "imagePos": "top",
+    "colours": [
+      "#cdcbcb",
+      "#2d3444"
+    ]
   },
-  "name": "Lesedi",
-  "quote": "I NEVER LOSE I EITHER WIN OR LEARN",
-  "image": "lesedi.jpg",
-  "imagePos": "top",
-  "colours": [
-    "#cdcbcb",
-    "#2d3444"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886216"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886216"
+    },
+    "name": "Bafentswe(BEEF)",
+    "quote": "I WILL BE THERE NO MATTER WHAT",
+    "image": "beef.jpg",
+    "colours": [
+      "#cdcbcb",
+      "#2d3444"
+    ]
   },
-  "name": "Bafentswe(BEEF)",
-  "quote": "I WILL BE THERE NO MATTER WHAT",
-  "image": "beef.jpg",
-  "colours": [
-    "#cdcbcb",
-    "#2d3444"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886217"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886217"
+    },
+    "name": "Iphapeng",
+    "quote": "I WIL LOVE IT,AND I THINK I WILL DESERVE IT ",
+    "image": "iphapeng.jpg",
+    "colours": [
+      "#cdcbcb",
+      "#2d3444"
+    ]
   },
-  "name": "Iphapeng",
-  "quote": "I WIL LOVE IT,AND I THINK I WILL DESERVE IT ",
-  "image": "iphapeng.jpg",
-  "colours": [
-    "#cdcbcb",
-    "#2d3444"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886218"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886218"
+    },
+    "name": "Mulondi",
+    "quote": "Just finished my 12yr sentence ",
+    "image": "Molondi.jpg",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Mulondi",
-  "quote": "Just finished my 12yr sentence ",
-  "image": "Molondi.jpg",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886219"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886219"
+    },
+    "name": "Lauren",
+    "quote": "See you all from the billboards",
+    "image": "lauren.jpg",
+    "imagePos": "top",
+    "colours": [
+      "#cdcbcb",
+      "#2d3444"
+    ]
   },
-  "name": "Lauren",
-  "quote": "See you all from the billboards",
-  "image": "lauren.jpg",
-  "imagePos": "top",
-  "colours": [
-    "#cdcbcb",
-    "#2d3444"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef88621a"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef88621a"
+    },
+    "name": "Megan ",
+    "quote": "When you being real, you ain't worried 'bout who fake- Megan Thee Stalion",
+    "image": "megan.jpg",
+    "imagePos": "bottom",
+    "colours": [
+      "#cdcbcb",
+      "#2d3444"
+    ]
   },
-  "name": "Megan ",
-  "quote": "When you being real, you ain't worried 'bout who fake- Megan Thee Stalion",
-  "image": "megan.jpg",
-  "imagePos": "bottom",
-  "colours": [
-    "#cdcbcb",
-    "#2d3444"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef88621b"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef88621b"
+    },
+    "name": "Willo",
+    "quote": "Vroom Vroom so let's ride ",
+    "image": "willo2.jpg",
+    "imagePos": "top",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Willo",
-  "quote": "Vroom Vroom so let's ride ",
-  "image": "willo2.jpg",
-  "imagePos": "top",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef88621c"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef88621c"
+    },
+    "name": "Chloe",
+    "quote": "And with that, it all comes to an end. All the moments we spent together will now live on as memories and our future will now become our present...",
+    "image": "chloe2.jpg",
+    "imagePos": "-23px",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Chloe",
-  "quote": "And with that, it all comes to an end. All the moments we spent together will now live on as memories and our future will now become our present...",
-  "image": "chloe2.jpg",
-  "imagePos": "-23px",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef88621d"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef88621d"
+    },
+    "name": "Khanyi",
+    "quote": "Nothing lasts forever but atleast we got these memories- J Cole",
+    "image": "khanyi2.jpg",
+    "imagePos": "top",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Khanyi",
-  "quote": "Nothing lasts forever but atleast we got these memories- J Cole",
-  "image": "khanyi2.jpg",
-  "imagePos": "top",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef88621e"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef88621e"
+    },
+    "name": "Ruben",
+    "quote": "Shoot for the moon; if you miss you will die in space, which is cool ",
+    "image": "ruben.jpg",
+    "imagePos": "top",
+    "colours": [
+      "#cdcbcb",
+      "#2d3444"
+    ]
   },
-  "name": "Ruben",
-  "quote": "Shoot for the moon; if you miss you will die in space, which is cool ",
-  "image": "ruben.jpg",
-  "imagePos": "top",
-  "colours": [
-    "#cdcbcb",
-    "#2d3444"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef88621f"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef88621f"
+    },
+    "name": "Keagan",
+    "quote": "Kiki ki Ra EY EY EY- Danny Ricc",
+    "image": "Keagan.png",
+    "imagePos": "-15px",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Keagan",
-  "quote": "Kiki ki Ra EY EY EY- Danny Ricc",
-  "image": "Keagan.png",
-  "imagePos": "-15px",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886220"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886220"
+    },
+    "name": "Nalize",
+    "quote": "KIKI AY -Max Verstappen  ",
+    "image": "nalize.jpg",
+    "imagePos": "bottom",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Nalize",
-  "quote": "KIKI AY -Max Verstappen  ",
-  "image": "nalize.jpg",
-  "imagePos": "bottom",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886221"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886221"
+    },
+    "name": "Mckayla",
+    "quote": "love anyway ",
+    "image": "mckayla.jpg",
+    "imagePos": "bottom",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Mckayla",
-  "quote": "love anyway ",
-  "image": "mckayla.jpg",
-  "imagePos": "bottom",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886222"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886222"
+    },
+    "name": "KC",
+    "quote": "School is important, but swimming's importanter...eat pasta to swim fasta",
+    "image": "kc.jpg",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "KC",
-  "quote": "School is important, but swimming's importanter...eat pasta to swim fasta",
-  "image": "kc.jpg",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886223"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886223"
+    },
+    "name": "Waden",
+    "quote": "All shots you don't take, you miss. DONT HAVE GWABS",
+    "image": "waden.jpg",
+    "colours": [
+      "#cdcbcb",
+      "#2d3444"
+    ]
   },
-  "name": "Waden",
-  "quote": "All shots you don't take, you miss. DONT HAVE GWABS",
-  "image": "waden.jpg",
-  "colours": [
-    "#cdcbcb",
-    "#2d3444"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886224"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886224"
+    },
+    "name": "Neo",
+    "quote": "Don't stop until you're proud",
+    "image": "neo.jpg",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Neo",
-  "quote": "Don't stop until you're proud",
-  "image": "neo.jpg",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886225"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886225"
+    },
+    "name": "Tshego",
+    "quote": "y'all went to high school, i went to school high ",
+    "image": "tshego.jpg",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Tshego",
-  "quote": "y'all went to high school, i went to school high ",
-  "image": "tshego.jpg",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886226"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886226"
+    },
+    "name": "Lethabo",
+    "quote": "They say cheating doesnt get you anywhere but look at me now ",
+    "image": "lethabo.jpg",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Lethabo",
-  "quote": "They say cheating doesnt get you anywhere but look at me now ",
-  "image": "lethabo.jpg",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886227"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886227"
+    },
+    "name": "Tumi",
+    "quote": "No such thing as a life that's better than yours",
+    "image": "tumi.jpg",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Tumi",
-  "quote": "No such thing as a life that's better than yours",
-  "image": "tumi.jpg",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886228"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886228"
+    },
+    "name": "Palesa",
+    "quote": "The best oppurtunities are the ones you create for yourself ",
+    "image": "palesa.jpg",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Palesa",
-  "quote": "The best oppurtunities are the ones you create for yourself ",
-  "image": "palesa.jpg",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886229"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886229"
+    },
+    "name": "Aiden",
+    "quote": "How long is a metre",
+    "image": "aiden.jpg",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Aiden",
-  "quote": "How long is a metre",
-  "image": "aiden.jpg",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef88622a"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef88622a"
+    },
+    "name": "Alomaine",
+    "quote": "Patrolling the Mojave almost makes you wish for a nuclear winter ",
+    "image": "alomaine.jpg",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Alomaine",
-  "quote": "Patrolling the Mojave almost makes you wish for a nuclear winter ",
-  "image": "alomaine.jpg",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef88622b"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef88622b"
+    },
+    "name": "Arthur",
+    "quote": "Why have a real girlfriend when I can just 3D print one",
+    "image": "unknown.jpg",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Arthur",
-  "quote": "Why have a real girlfriend when I can just 3D print one",
-  "image": "unknown.jpg",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef88622c"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef88622c"
+    },
+    "name": "Keamo",
+    "quote": "not bad at all, i'd rate it a 20/23",
+    "image": "keamo.jpg",
+    "colours": [
+      "#cdcbcb",
+      "#2d3444"
+    ]
   },
-  "name": "Keamo",
-  "quote": "not bad at all, i'd rate it a 20/23",
-  "image": "keamo.jpg",
-  "colours": [
-    "#cdcbcb",
-    "#2d3444"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef88622d"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef88622d"
+    },
+    "name": "Kea",
+    "quote": "Who put my future in MY hands? Like why would you do that?",
+    "image": "kea.jpg",
+    "colours": [
+      "#cdcbcb",
+      "#2d3444"
+    ]
   },
-  "name": "Kea",
-  "quote": "Who put mu future in MY hands? Like why would you do tha?",
-  "image": "kea.jpg",
-  "colours": [
-    "#cdcbcb",
-    "#2d3444"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef88622e"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef88622e"
+    },
+    "name": "Nae Nae ",
+    "quote": "Maths core was my biggest mistake",
+    "image": "Nae Nae.jpg",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Nae Nae ",
-  "quote": "Maths core was my biggest mistake ",
-  "image": "Nae Nae.jpg",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef88622f"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef88622f"
+    },
+    "name": "Karabo",
+    "quote": "Im not sleeping I promise",
+    "image": "unknown.jpg",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Karabo",
-  "quote": "Im not sleeping i promise ",
-  "image": "unknown.jpg",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886230"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886230"
+    },
+    "name": "Kyla",
+    "quote": "Just finished my 12yr sentence ",
+    "image": "kyla.jpg",
+    "imagePos": "top",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Kyla",
-  "quote": "Just finished my 12yr sentence ",
-  "image": "kyla.jpg",
-  "imagePos": "top",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886231"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886231"
+    },
+    "name": "Sihle",
+    "quote": "Loving is never a waste",
+    "image": "sihle.jpg",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Sihle",
-  "quote": "Loving is never a waste",
-  "image": "sihle.jpg",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886232"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886232"
+    },
+    "name": "Damian",
+    "quote": "I was almost arrested for being too 'quirky'",
+    "image": "damian.jpg",
+    "imagePos": "top",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Damian",
-  "quote": "I was almost arrested for being too 'quirky'",
-  "image": "damian.jpg",
-  "imagePos": "top",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886233"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886233"
+    },
+    "name": "Christian",
+    "quote": "The Shop is my top priority",
+    "image": "christian.jpg",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Christian",
-  "quote": "The Shop is my top priority",
-  "image": "christian.jpg",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886234"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886234"
+    },
+    "name": "Leo",
+    "quote": "I love two things, passing and blondes",
+    "image": "leo.jpg",
+    "imagePos": "top",
+    "colours": [
+      "#dedccf",
+      "#0b1a31"
+    ]
   },
-  "name": "Leo",
-  "quote": "I love two things, passing and blondes",
-  "image": "leo.jpg",
-  "imagePos": "top",
-  "colours": [
-    "#dedccf",
-    "#0b1a31"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886235"
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886235"
+    },
+    "name": "Reality",
+    "quote": "Word of the day, Learn from yesterday, Live for today, Hope for tomorrow bro",
+    "image": "reality.jpg",
+    "colours": [
+      "#cdcbcb",
+      "#2d3444"
+    ]
   },
-  "name": "Reality",
-  "quote": "Word of the day, Learn from yesterday, Live for today, Hope for tomorrow bro",
-  "image": "reality.jpg",
-  "colours": [
-    "#cdcbcb",
-    "#2d3444"
-  ]
-},{
-  "_id": {
-    "$oid": "6529b2e5947f5b88ef886236"
-  },
-  "name": "Taine",
-  "quote": "Did i even go to this school ",
-  "image": "unknown.jpg",
-  "colours": [
-    "#cdcbcb",
-    "#2d3444"
-  ]
-}]
+  {
+    "_id": {
+      "$oid": "6529b2e5947f5b88ef886236"
+    },
+    "name": "Taine",
+    "quote": "Did i even go to this school ",
+    "image": "unknown.jpg",
+    "colours": [
+      "#cdcbcb",
+      "#2d3444"
+    ]
+  }
+]
